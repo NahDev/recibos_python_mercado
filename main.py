@@ -5,7 +5,4 @@ from process.text import text_process
 caminhoimagem = "comprovantes/comprovante_dia.jpeg"
 
 pimagem = image_process(caminhoimagem)
-
-dados = text_process(pimagem)
-
-print(dados)
+text_process(pimagem)
