@@ -7,6 +7,5 @@ caminhoimagem = "comprovantes/comprovante_dia.jpeg"
 pimagem = image_process(caminhoimagem)
 
 dados = text_process(pimagem)
-for dado in dados:
-    print(dado)
-# print(analise)
+
+print(dados)

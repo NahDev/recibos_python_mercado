@@ -20,5 +20,6 @@ def text_process(texto):
                     }
                 }
             )
-
-    return dados
+    for dado in dados:
+        print(dado)
+        # return dado
