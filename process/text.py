@@ -13,10 +13,11 @@ def text_process(texto):
             # if len(campos) <= 8:
             dados.append(
                 {
-                    "id": campos[0],
-                    "produto": campos[2],
-                    "valor_unt": campos[-2],
-                    "valor": campos[-1],
+                    campos[0]: {
+                        "produto": campos[2],
+                        "valor_unt": campos[-2],
+                        "valor": campos[-1],
+                    }
                 }
             )
 

@@ -8,5 +8,5 @@ pimagem = image_process(caminhoimagem)
 
 dados = text_process(pimagem)
 for dado in dados:
-    print(len(dado))
+    print(dado)
 # print(analise)
